@@ -1,4 +1,10 @@
+/*SVG Animatio*/
+svg path,
+svg rect{
+  fill: black;
+}
 
+/* Animaciones*/
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -35,7 +41,7 @@
       opacity: 1;
     }
   }
-  .animate__fadeIn {
+  .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
